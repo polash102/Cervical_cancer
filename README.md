@@ -264,7 +264,8 @@ STD  = (0.229, 0.224, 0.225)
 
 ## Original vs Preprocessed Samples
 
-![Preprocessing comparison](PapSwin-MatchNet/figures/preprocessing_comparison.png)
+![Preprocessing comparison](PapSwin-MatchNet/figures/preprocessing_comparison.jpg)
+
 
 ---
 
