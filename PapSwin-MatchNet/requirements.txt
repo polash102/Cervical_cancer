@@ -1,0 +1,13 @@
+kagglehub
+numpy
+pandas
+Pillow
+opencv-python
+matplotlib
+scikit-learn
+scipy
+psutil
+torch
+torchvision
+timm
+fvcore
