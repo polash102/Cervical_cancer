@@ -150,7 +150,7 @@ The complete experimental workflow includes:
 # Dataset
 
 The experiments use the publicly available **SIPaKMeD** cervical cytology
-dataset through the Kaggle collection:
+dataset through the Kaggle collection: https://www.kaggle.com/datasets/mohaliy2016/papsinglecell
 
 **Single Cell Conventional Pap Smear Images**
 
