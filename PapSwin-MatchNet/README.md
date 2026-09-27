@@ -84,7 +84,7 @@ Each image is processed using:
 6. Min-max intensity normalization
 7. ImageNet channel normalization before model input
 
-![Preprocessing comparison](figures/preprocessing_comparison.png)
+![Preprocessing comparison](figures/preprocessing_comparison.jpg)
 
 ## Training Augmentation
 
