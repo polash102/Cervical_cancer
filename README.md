@@ -130,7 +130,7 @@ PapSwin-MatchNet combines four major components:
 
 # Overall Methodology
 
-![Overall methodology](figures/overall_methodology.jpg)
+![Overall methodology](PapSwin-MatchNet/figures/overall_methodology.jpg)
 
 The complete experimental workflow includes:
 
@@ -264,7 +264,7 @@ STD  = (0.229, 0.224, 0.225)
 
 ## Original vs Preprocessed Samples
 
-![Preprocessing comparison](figures/preprocessing_comparison.png)
+![Preprocessing comparison](PapSwin-MatchNet/figures/preprocessing_comparison.png)
 
 ---
 
@@ -379,7 +379,7 @@ PapSwin-MatchNet was evaluated on the held-out **405-image test set**.
 
 PapSwin-MatchNet correctly classified **395 of the 405 test images**.
 
-![PapSwin-MatchNet confusion matrix](figures/confusion_matrix.png)
+![PapSwin-MatchNet confusion matrix](PapSwin-MatchNet/figures/confusion_matrix.png)
 
 Dyskeratotic, Parabasal, and Superficial-Intermediate cells achieved complete
 recall on the fixed test set, while most remaining errors occurred between
@@ -455,7 +455,7 @@ than independent clinical-domain validation.
 Grad-CAM++ and SmoothGrad were used to provide qualitative explanations of
 model predictions.
 
-![Grad-CAM++ and SmoothGrad explanations](figures/explainability.jpg)
+![Grad-CAM++ and SmoothGrad explanations](PapSwin-MatchNet/figures/explainability.jpg)
 
 The explanation maps are intended for qualitative model interpretation and
 have not been clinically validated.
@@ -477,7 +477,7 @@ The application provides:
 - Spatial matching confidence
 - Grad-CAM++ visualization
 
-![PapSwin-MatchNet web application](figures/web_app.png)
+![PapSwin-MatchNet web application](PapSwin-MatchNet/figures/web_app.png)
 
 The deployed interface is intended strictly for research, educational, and
 demonstration purposes.
@@ -519,7 +519,7 @@ PapSwin-MatchNet/
 
 The main implementation is available here:
 
-[`notebooks/PapSwin_MatchNet.ipynb`](notebooks/PapSwin_MatchNet.ipynb)
+[`notebooks/PapSwin_MatchNet.ipynb`](PapSwin-MatchNet/notebooks/PapSwin_MatchNet.ipynb)
 
 The notebook contains:
 
