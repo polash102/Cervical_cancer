@@ -70,29 +70,23 @@ Cervical cell classification remains challenging because morphologically
 similar cell categories may differ only in subtle nuclear, cytoplasmic, and
 textural characteristics. This motivates a framework that can jointly capture
 fine local morphology and broader contextual information without depending on
-a computationally heavy architecture.
-
-This study proposes **PapSwin-MatchNet**, a local-global CNN–Transformer model
+a computationally heavy architecture.This study proposes **PapSwin-MatchNet**, a local-global CNN–Transformer model
 that combines a ConvNeXt-Atto morphology expert with a compact partial
 Swin-Tiny context expert. **Bidirectional Spatial Correspondence Matching
 (BSCM)** aligns the two feature streams using correspondence confidence and
 bidirectional cross-attention. The **Match-Conditioned Class Router (MCCR)**
 adaptively integrates the branches using branch reliability, prediction
 disagreement, feature agreement, and low-rank relational correction.
-
 The model was evaluated on the five-class SIPaKMeD dataset using a stratified
 80:10:10 split and six CNN and Transformer baselines. PapSwin-MatchNet achieved
 **97.53% test accuracy**, **0.9752 macro F1**, **0.9692 MCC**, and a
 **macro ROC-AUC of 0.9987** with approximately **8.65 million parameters**.
-
 Five-fold cross-validation yielded a mean accuracy of
 **97.06% ± 0.96%**, while ablation analysis, paired statistical testing,
 multi-seed experiments, calibration analysis, and controlled perturbations
 were used to examine model stability. Grad-CAM++ and SmoothGrad provided
 qualitative explanations, and a browser-based application illustrated
-accessible deployment.
-
-These results support correspondence-aware CNN–Transformer fusion with
+accessible deployment. These results support correspondence-aware CNN–Transformer fusion with
 adaptive routing for five-class cervical-cell classification.
 
 ---
@@ -481,7 +475,7 @@ The application provides:
 ![PapSwin-MatchNet web application](PapSwin-MatchNet/figures/web_app.png)
 
 The deployed interface is intended strictly for research, educational, and
-demonstration purposes.
+demonstration purposes. Try https://huggingface.co/spaces/polash7899/Cervical_cancer
 
 ---
 
@@ -649,13 +643,13 @@ the associated manuscript once its final publication information is available.
 ```bibtex
 @article{papswinmatchnet2026,
   title   = {PapSwin-MatchNet: A Dual-Expert CNN--Transformer Network with Spatial Correspondence and Adaptive Routing for Cervical Cell Classification},
-  author  = {Bhuiyan, Md. Shakil and
-             Karmakar, Chinmoy and
-             Rahman, Azizur and
-             Polash, Md. Saymon Hosen and
-             Shill, Pintu Chandra and
-             Alturki, Abdulrahman S. and
-             Uddin, Jia},
+  author  = { Md. Shakil Bhuiyan and
+             Chinmoy Karmakar,  and
+             Azizur Rahman,  and
+              Md. Saymon Hosen Polash, and
+             Pintu Chandra Shill, and
+             Abdulrahman S. Alturki, and
+             Jia Uddin},
   year    = {2026},
   note    = {Manuscript}
 }
