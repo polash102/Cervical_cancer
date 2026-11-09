@@ -635,6 +635,11 @@ cite the corresponding dataset and SIPaKMeD publication.
 
 ---
 
+## Trained model weight
+
+Download `PapSwin_MatchNet_best.pth` from the
+[model release](https://github.com/polash102/Cervical_cancer/releases/tag/v1.0.0).
+
 # Citation
 
 If you use this repository or PapSwin-MatchNet in your research, please cite
