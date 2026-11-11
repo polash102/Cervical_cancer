@@ -124,7 +124,7 @@ PapSwin-MatchNet combines four major components:
 
 # Overall Methodology
 
-![Overall methodology](PapSwin-MatchNet/figures/overall_methodology.jpg)
+![Overall methodology](<img width="8864" height="11052" alt="updated_method" src="https://github.com/user-attachments/assets/601aabdc-34cb-4ae1-9fd3-1c4d0bd7f3c5" />)
 
 The complete experimental workflow includes:
 
